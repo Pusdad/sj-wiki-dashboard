@@ -6,7 +6,8 @@ import { WikiData, Person } from "./types/wiki";
 import KPICards from "./components/KPICards";
 import SourceTimeline from "./components/SourceTimeline";
 import PeopleByBU from "./components/PeopleByBU";
-import OrgChart from "./components/OrgChart";
+import dynamic from "next/dynamic";
+const OrgChart = dynamic(() => import("./components/OrgChart"), { ssr: false });
 import PersonPanel from "./components/PersonPanel";
 import RecentSources from "./components/RecentSources";
 
