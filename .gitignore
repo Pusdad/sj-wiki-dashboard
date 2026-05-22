@@ -1,0 +1,29 @@
+# Next.js
+.next/
+out/
+node_modules/
+npm-debug.log*
+
+# Build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Wiki data (regenerate with parse_vault.py — don't commit sensitive data)
+# app/data/wiki_data.json
+# Uncomment the line above if you don't want the JSON in the repo.
+# Leave commented if you want GitHub Actions to use the checked-in JSON.
